@@ -25,7 +25,7 @@ function App() {
         className = {buttonColor}
         onClick={farbeWechseln}
         disabled={buttonDesable}
-        >Aiyoub hat die farbe zu {nextColor} gewechselt
+        >Aiyoub hat die farbe zu {buttonColor} gewechselt
       </button>
       <br></br>
       <input id = "checkbox" onChange={chechBoxFunktion}  type="checkbox"></input>
